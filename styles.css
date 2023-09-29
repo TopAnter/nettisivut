@@ -1,0 +1,234 @@
+
+.open {
+    background-color: black;
+    color: white;
+}
+
+.tabs{
+    text-align: center;
+}
+
+.keskitä{
+    text-align: center;
+}
+
+.section{
+    width: 100%;
+    background-color: rgb(110, 99, 82);
+    padding: 1px;
+    animation: blinkingBackground2 10s infinite;
+}
+
+.BottomBanner{
+    background-color: rgb(194, 30, 180);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    animation: blinkingBackground 10s infinite;
+}
+
+@keyframes blinkingBackground{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #1056c0;}
+    50%		{ background-color: #ef0a1a;}
+    75%		{ background-color: #254878;}
+    100%    { background-color: #4f0b7c;}
+}
+@keyframes blinkingBackground2{
+    50%		{ background-color: #ff0202;}
+    100%    { background-color: #00ff22;}
+}
+
+.BottomText1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 250%;
+}
+.BottomText2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 250%;
+}
+
+.bottomLinks{
+    text-decoration: none;
+    color: black;
+}
+
+#otsikko {
+    text-align: center;
+}
+
+#box1{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(197, 151, 82);   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    inline-size: auto;
+    animation: stretchyText 2s infinite;
+}
+
+#box2{
+    display: grid;
+    text-align: left; 
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(226, 19, 19);
+}
+
+#text2{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%		{ color: #10c018;}
+    25%		{ color: #1056c0;}
+    26%     {font-size: 40px;}
+    50%		{ color: #ef790a;}
+    100%    { color: #4f0b7c;}
+}
+@keyframes stretchyText{
+
+    50%		{ word-spacing: 10px;}
+    100%    {color: #0a21ef;}
+}
+
+.väliPalkki{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    text-emphasis-color: red;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-size: 30px;
+    text-align: left;
+    line-height: 50px;
+    padding-left: 17%;
+    padding-bottom: 50px;
+}
+
+/*
+Tästä eteenpäin on opinnot sivun cssää
+*/
+
+.opinnot1{
+    width: 45%;
+    height: 300px;
+    background-color: rgb(235, 172, 79);
+    float: left;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.opinnot2{
+    width: 100%;
+    height: 700px;
+    background-color: violet;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*
+tästä eteenpäin harrastukset sivun cssää
+*/
+
+.harrastukset1{
+    
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 400px;
+}
+.harrastukset2{
+ 
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 400px;
+}
+.harrastukset3{
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 400px;
+}
+
+/*
+Tästä eteenpäin työkokemus ja työnäytteet sivun cssää
+*/
+
+#työkokemus1{
+    width: 100%;
+    background-color: #4f0b7c;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 6%;
+}
+
+#työkokemus2{
+    width: 100%;
+    background-color: #5a10bb;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#työkokemus3{
+    width: 100%;
+    background-color: #1708a1;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 6%;
+}
+
+/*
+Tässä ala ohjauspaneelin css
+*/
+
+.navigationBottom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navigationButtons{
+    background-color: #4f0b7c;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+}
